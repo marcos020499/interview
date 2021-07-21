@@ -3,6 +3,7 @@ import { Switch, Route, HashRouter } from "react-router-dom";
 
 import Header from './components/header/index'
 import SignIn from './components/sign-in/sign-in'
+import SignUp from './components/sign-up/sign-up'
 
 import { createGlobalStyle } from "styled-components";
 import { toast } from "react-toastify";
@@ -14,6 +15,7 @@ const App =() => {
       <HashRouter>
         <Header />
         <SignIn/>
+        <SignUp/>
       </HashRouter>
       <GlobalStyle />
     </>
