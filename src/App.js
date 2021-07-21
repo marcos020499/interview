@@ -24,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(white, blue);
+    background: gray;
     font-family: 'Inconsolata', monospace;
   }
 `;
