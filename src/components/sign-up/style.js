@@ -43,9 +43,12 @@ export const Img1 = styled.img`
   }
 `;
 export const Content = styled.div`
-    padding: 0 8vw 0 8vw;
+    padding: 0 7vw 0 7.5vw;
+    margin: 0;
+    border-right: 1px solid gray;
     @media screen and (max-width: 768px) {
-        margin: 0 0 15vw 0;
+        border-right: none;
+        paddinf: 0 0 8vw 0;
       } 
 `;
 export const Content1 = styled.div`
@@ -55,7 +58,8 @@ export const Check = styled.div`
     display: flex;
 `;
 export const Input = styled.input`
-    position: initial;
+    font-size: 10.2vw;
+    width: 10vw;
 `;
 export const Bolder = styled.span`
   font-size: 1.9vw;

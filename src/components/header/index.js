@@ -1,5 +1,5 @@
 import React from "react";
-import {ContainerHeader, LogoBlanco, Linken, H1, Selector, H2, Icons} from './style'
+import {ContainerHeader, LogoBlanco, LogoBlanco1, Linken, Icons1, Linken1, H1, Selector, H2, Icons} from './style'
 import "font-awesome/css/font-awesome.min.css";
 const Header =()=>{
     return(
@@ -17,6 +17,9 @@ const Header =()=>{
                     <Linken to="/" className="fa fa-heart"></Linken>
                     <Linken to="/" className="fa fa-shopping-cart"></Linken>
                 </Icons>
+                <Icons1>
+                    <LogoBlanco1 src={'https://res.cloudinary.com/marcos020499/image/upload/v1626880896/recortes-34_sg9zpa.png'}/>
+                </Icons1>
             </div>
         </ContainerHeader>
     )

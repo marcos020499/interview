@@ -4,7 +4,12 @@ import { Link } from 'react-router-dom'
 export const ContainerSignIn = styled.div`
   display: flex;
   justify-content: center;
-  padding: 10vw 0 0 0;
+  padding: 10vw 0 5vw 0;
+  
+  border-bottom: 1px solid gray;
+  @media screen and (max-width: 768px) {
+    margin: 0 10vw 0 10vw;
+  }
 `;
 export const Span = styled.span`
   font-size: 1.9vw;
