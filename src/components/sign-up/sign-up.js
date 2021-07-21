@@ -2,20 +2,17 @@ import React, { useState } from "react";
 import CustomButton from "../custom-button/Custom-button";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import {
-  auth,
-  createUserProfileDocument,
-} from "../../components/firebase/firebase";
-import { ContainerSignUp } from "./style";
+import { ContainerSignUp, H2 } from "./style";
 import FormInput from "../form-input/form-input";
 toast.configure();
 
 function SingUp() {
   
   return (
+    <>
+    <H2>Crear cuenta</H2>
     <ContainerSignUp>
       <div>
-      <h2>Crear cuenta</h2>
       <h2 className="title">Soy coleccionista</h2>
       <p>Crea una cuenta para comprar y conocer las obras de diferentes artistas.</p>
       <form>
@@ -53,6 +50,7 @@ function SingUp() {
         <CustomButton>Aplicar Ahora</CustomButton>
       </div>
     </ContainerSignUp>
+    </>
   );
 }
 

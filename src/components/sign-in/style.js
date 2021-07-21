@@ -2,7 +2,20 @@ import styled from "styled-components";
 import CustomButton from "../custom-button/Custom-button";
 import { Link } from 'react-router-dom'
 export const ContainerSignIn = styled.div`
-  margin: 2vw;
+  display: flex;
+  justify-content: center;
+  padding: 10vw 0 0 0;
+`;
+export const Span = styled.span`
+  font-size: 1.9vw;
+  text-align: center;
+  justify-content: center;
+`;
+export const Bolder = styled.span`
+  font-size: 1.9vw;
+  font-weight: bolder;
+  text-align: center;
+  justify-content: center;
 `;
 export const GoogleButton = styled(CustomButton)`
   background-color: #4285f4;
@@ -14,10 +27,9 @@ export const GoogleButton = styled(CustomButton)`
   }
 `;
 export const Linken = styled(Link)`
-  padding: 2.5vw;
   font-weight: bold;
-  font-size: 1.8vw;
+  font-size: 1.4vw;
+  color: rgb(227, 83, 193);
   @media screen and (max-width: 768px) {
-    font-size: 4.5vw;
   }
 `;

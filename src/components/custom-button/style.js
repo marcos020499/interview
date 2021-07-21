@@ -7,15 +7,17 @@ export const Button = styled.button`
   height: 50px;
   letter-spacing: 0.5px;
   line-height: 50px;
+  margin: 3vw 0 0 0;
   padding: 0 35px 0 35px;
   font-size: 15px;
-  background-color: rgb(174, 36, 142);;
+  background-color: rgb(198, 51, 163);
   color: white;
   font-weight: 100;
   border: none;
   cursor: pointer;
   display: flex;
   justify-content: center;
+  text-align: center;
   @media screen and (max-width: 768px) {
     font-size: 12px;
   }

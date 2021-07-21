@@ -1,19 +1,19 @@
 import React, { useEffect } from "react";
 import FormInput from "../form-input/form-input";
 import CustomButton from "../custom-button/Custom-button";
-import { ContainerSignIn, Linken } from "./style";
+import { ContainerSignIn, Linken, Span, Bolder } from "./style";
 import "react-toastify/dist/ReactToastify.css";
 
 const SingIn = () => {
 
   return (
     <ContainerSignIn>
-      <span>Iniciar sesión</span>
       <form>
+        <Span>Iniciar <Bolder>sesión</Bolder></Span>
         <FormInput
+          label="Nombre"
           name="Nombre"
           type="text"
-          label="Nombre"
           required
         />
         <FormInput
@@ -23,7 +23,7 @@ const SingIn = () => {
           required
         />
         <Linken>
-        Olvidé mi contraseña
+          Olvidé mi contraseña
         </Linken>
         <div className="buttons">
           <CustomButton type="submit"> Entrar </CustomButton>
