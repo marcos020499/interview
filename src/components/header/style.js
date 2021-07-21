@@ -28,6 +28,7 @@ export const LogoBlanco1 = styled.img`
     padding: 2vw 1vw 0 2vw;
     @media screen and (max-width: 768px) {
         width: 10vw;
+        height: 10vw;
       }
 `;
 export const Selector = styled.div`
