@@ -1,7 +1,7 @@
 import React from "react";
 import CustomButton from "../custom-button/Custom-button";
 import "react-toastify/dist/ReactToastify.css";
-import { ContainerSignUp, H2, Bolder, Span, P, Img, Img1, Content } from "./style";
+import { ContainerSignUp, H2, Bolder, P1, Span, P, Img, Img1, Content1, Input, Check, Content, Bolder1 } from "./style";
 import FormInput from "../form-input/form-input";
 
 function SingUp() {
@@ -39,16 +39,21 @@ function SingUp() {
           name="Repetir contraseña"
           required
         />
-        <p>Al registrarme acepto las políticas de privacidad y los Términos y Condiciones</p>
+        <Check>
+          <Input type="checkbox"/>
+          <div>
+            <P1>Al registrarme ace1to las <Bolder1>políticas de privacidad</Bolder1> y los <Bolder1>Términos y Condiciones</Bolder1></P1>
+          </div>
+        </Check>
         <CustomButton>Crear cuenta</CustomButton>
       </form>
       </Content>
-      <Content>
+      <Content1>
       <Img1 src={'https://res.cloudinary.com/marcos020499/image/upload/v1626880896/recortes-30_1_agg3h5.png'}/>
         <H2><Span>Soy <Bolder>artista</Bolder></Span></H2>
         <P>Crea una cuenta para mostrar tus trabajos y darte a conocer como artista</P>
         <CustomButton>Aplicar Ahora</CustomButton>
-      </Content>
+      </Content1>
     </ContainerSignUp>
     </>
   );

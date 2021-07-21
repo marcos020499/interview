@@ -20,6 +20,7 @@ export const Button = styled.button`
   text-align: center;
   @media screen and (max-width: 768px) {
     font-size: 12px;
+    margin: 3vw 0vw 0 10vw;
   }
   &:hover {
     background-color: white;

@@ -10,12 +10,18 @@ export const Span = styled.span`
   font-size: 1.9vw;
   text-align: center;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    font-size: 4.2vw;
+  }
 `;
 export const Bolder = styled.span`
   font-size: 1.9vw;
   font-weight: bolder;
   text-align: center;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    font-size: 4.2vw;
+  }
 `;
 export const GoogleButton = styled(CustomButton)`
   background-color: #4285f4;
@@ -35,5 +41,6 @@ export const Linken = styled(Link)`
   font-size: 1.4vw;
   color: rgb(227, 83, 193);
   @media screen and (max-width: 768px) {
+    font-size: 2.4vw;
   }
 `;
