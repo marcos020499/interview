@@ -67,7 +67,7 @@ export const Bolder = styled.span`
   }
 `;
 export const Bolder1 = styled.span`
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   color: rgb(227, 83, 193);
   font-weight: bolder;
   text-align: center;
@@ -77,7 +77,7 @@ export const Bolder1 = styled.span`
   }
 `;
 export const P = styled.p`
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   font-weight: 100;
   text-align: center;
   justify-content: center;
@@ -86,7 +86,7 @@ export const P = styled.p`
   }
 `;
 export const P1 = styled.p`
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   font-weight: 100;
   text-align: justify;
   justify-content: center;
