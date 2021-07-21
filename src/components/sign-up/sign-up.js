@@ -50,6 +50,7 @@ function SingUp() {
       <div>
         <h2>Soy artista</h2>
         <p>Crea una cuenta para mostrar tus trabajos y darte a conocer como artista</p>
+        <CustomButton>Aplicar Ahora</CustomButton>
       </div>
     </ContainerSignUp>
   );
