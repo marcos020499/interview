@@ -1,20 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import CustomButton from "../custom-button/Custom-button";
-import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { ContainerSignUp, H2 } from "./style";
+import { ContainerSignUp, H2, Bolder, Span, P, Img, Img1, Content } from "./style";
 import FormInput from "../form-input/form-input";
-toast.configure();
 
 function SingUp() {
   
   return (
     <>
-    <H2>Crear cuenta</H2>
+    <H2><Span>Crear <Bolder>cuenta</Bolder></Span></H2>
     <ContainerSignUp>
-      <div>
-      <h2 className="title">Soy coleccionista</h2>
-      <p>Crea una cuenta para comprar y conocer las obras de diferentes artistas.</p>
+      <Content>
+      <Img src={'https://res.cloudinary.com/marcos020499/image/upload/v1626880896/recortes-29_1_iboazc.png'}/>
+      <H2><Span>Soy <Bolder>coleccionista</Bolder></Span></H2>
+      <P>Crea una cuenta para comprar y conocer las obras de diferentes artistas.</P>
       <form>
         <FormInput
           type="text"
@@ -43,12 +42,13 @@ function SingUp() {
         <p>Al registrarme acepto las políticas de privacidad y los Términos y Condiciones</p>
         <CustomButton>Crear cuenta</CustomButton>
       </form>
-      </div>
-      <div>
-        <h2>Soy artista</h2>
-        <p>Crea una cuenta para mostrar tus trabajos y darte a conocer como artista</p>
+      </Content>
+      <Content>
+      <Img1 src={'https://res.cloudinary.com/marcos020499/image/upload/v1626880896/recortes-30_1_agg3h5.png'}/>
+        <H2><Span>Soy <Bolder>artista</Bolder></Span></H2>
+        <P>Crea una cuenta para mostrar tus trabajos y darte a conocer como artista</P>
         <CustomButton>Aplicar Ahora</CustomButton>
-      </div>
+      </Content>
     </ContainerSignUp>
     </>
   );

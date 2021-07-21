@@ -7,7 +7,7 @@ export const Button = styled.button`
   height: 50px;
   letter-spacing: 0.5px;
   line-height: 50px;
-  margin: 3vw 0 0 0;
+  margin: 3vw 0vw 0 4vw;
   padding: 0 35px 0 35px;
   font-size: 15px;
   background-color: rgb(198, 51, 163);
@@ -44,3 +44,4 @@ export const Button = styled.button`
     }
   }
 `;
+export const Inverted = styled.button``;

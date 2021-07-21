@@ -1,15 +1,14 @@
-import React, { useEffect } from "react";
+import React from "react";
 import FormInput from "../form-input/form-input";
 import CustomButton from "../custom-button/Custom-button";
-import { ContainerSignIn, Linken, Span, Bolder } from "./style";
-import "react-toastify/dist/ReactToastify.css";
+import { ContainerSignIn, Linken, Span, Bolder, H2 } from "./style";
 
 const SingIn = () => {
 
   return (
     <ContainerSignIn>
       <form>
-        <Span>Iniciar <Bolder>sesión</Bolder></Span>
+        <H2><Span>Iniciar <Bolder>sesión</Bolder></Span></H2>
         <FormInput
           label="Nombre"
           name="Nombre"

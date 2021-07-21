@@ -26,6 +26,10 @@ export const GoogleButton = styled(CustomButton)`
     border: none;
   }
 `;
+export const H2 = styled.div`
+    margin: 6vw 0 0 0;
+    text-align: center;
+`;
 export const Linken = styled(Link)`
   font-weight: bold;
   font-size: 1.4vw;
